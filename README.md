@@ -23,3 +23,7 @@ Newman
 GitHub Actions
 🚀 Run
 newman run postman-collection/chatbot_collection.json -r cli,html --reporter-html-export automation/report.html
+## 🎯 Impact
+- Identified 5+ chatbot logic issues  
+- Improved intent accuracy  
+- Prevented incorrect responses in edge cases  
