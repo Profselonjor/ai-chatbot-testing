@@ -1,0 +1,12 @@
+{
+ "info": {"name": "Chatbot API"},
+ "item": [{
+   "name": "Test",
+   "request": {
+     "method": "POST",
+     "header": [{"key":"Content-Type","value":"application/json"}],
+     "body": {"mode":"raw","raw":"{\"message\":\"book hotel\"}"},
+     "url": {"raw":"http://localhost:3000/chatbot"}
+   }
+ }]
+}
